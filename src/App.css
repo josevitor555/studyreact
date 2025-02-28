@@ -1,0 +1,73 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  margin: 10px;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  color: #1d1d1d;
+  margin: 20px 0px;
+}
+
+.show-value {
+  margin: 20px 10px;
+}
+
+.show-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-names {
+  margin-top: 10px;
+}
+
+.list-names ul li {
+  list-style: none;
+}
+
+.delete-user {
+  margin: 8px 0px;
+  padding: 10px 20px;
+  border: 1px solid #1d1d1d;
+  border-radius: 8px;
+  transition: .3s ease;
+}
+
+.delete-user:hover {
+  background: #1d1d1d;
+  color: #fafafa;
+}
+
+body {
+  height: auto;
+  background: #fafafa;
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    0deg,
+    hsl(178deg 59% 89%) 0%,
+    hsl(146deg 56% 91%) 2%,
+    hsl(113deg 52% 92%) 4%,
+    hsl(81deg 46% 93%) 8%,
+    hsl(49deg 38% 94%) 12%,
+    hsl(16deg 26% 96%) 19%,
+    hsl(5deg 40% 95%) 32%,
+    hsl(15deg 64% 92%) 59%,
+    hsl(25deg 76% 90%) 77%,
+    hsl(35deg 83% 87%) 88%,
+    hsl(45deg 88% 85%) 95%,
+    hsl(55deg 91% 82%) 100%
+  );
+}
