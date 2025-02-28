@@ -1,12 +1,6 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 img {
-  margin: 10px;
+  margin: 0 auto;
   border-radius: 12px;
 }
 
@@ -20,7 +14,7 @@ h1 {
   margin: 20px 10px;
 }
 
-.show-button {
+.show-button, .props, .card__details {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,27 +28,10 @@ h1 {
   list-style: none;
 }
 
-.delete-user {
-  margin: 8px 0px;
-  padding: 10px 20px;
-  border: 1px solid #1d1d1d;
-  border-radius: 8px;
-  transition: .3s ease;
-}
-
-.delete-user:hover {
-  background: #1d1d1d;
-  color: #fafafa;
-}
-
 body {
   height: auto;
   background: #fafafa;
-  height: 100vh;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: auto;
   background-image: linear-gradient(
     0deg,
     hsl(178deg 59% 89%) 0%,
