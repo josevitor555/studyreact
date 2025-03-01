@@ -39,7 +39,7 @@ function App() {
   return (
     <>
      <div className='app'>
-      <h1 className='text-2xl'> Avançando no react </h1>
+      <h1 className='text-2xl'> Advancing in react </h1>
       
       {/* Importando imagens */}
       {/* <img src="./assets/img.jpg" alt="Image not found" /> */}
