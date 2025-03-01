@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+:root {
+    --background-image: linear-gradient(
+        0deg,
+        hsl(50deg 69% 91%) 5%,
+        hsl(48deg 65% 92%) 38%,
+        hsl(46deg 59% 93%) 45%,
+        hsl(42deg 53% 93%) 49%,
+        hsl(36deg 46% 94%) 51%,
+        hsl(25deg 37% 95%) 51%,
+        hsl(0deg 25% 95%) 51%,
+        hsl(21deg 35% 95%) 51%,
+        hsl(31deg 43% 94%) 51%,
+        hsl(37deg 50% 94%) 53%,
+        hsl(41deg 56% 93%) 56%,
+        hsl(44deg 61% 93%) 62%,
+        hsl(46deg 65% 92%) 90%
+      );
+}

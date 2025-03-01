@@ -49,7 +49,7 @@ h1 {
 }
 
 .fragment {
-  background: #fafafa;
+  background: var(--background-image);
   width: 580px;
   margin: 0 auto;
   padding: 10px 20px;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .children-prop {
-  background: #fafafa;
+  background: var(--background-image);
   width: 580px;
   margin: 14px auto;
   padding: 10px 20px;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .execute__function {
-  background: #fafafa;
+  background: var(--background-image);
   width: 580px;
   margin: 14px auto;
   padding: 10px 20px;
