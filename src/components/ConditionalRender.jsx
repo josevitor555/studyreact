@@ -9,7 +9,7 @@ function ConditionalRender() {
             {x && <p> If x is equal true, yes! </p>}
 
             {/* Else */}
-            <h3 className="text-2xl font-semibold mt-2"> Render ternário </h3>
+            <h3 className="text-2xl font-semibold mt-2"> Ternary render </h3>
             {name === "José" ? (
                 <div>
                     <p> Hello! José. </p>

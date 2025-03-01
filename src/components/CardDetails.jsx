@@ -1,6 +1,6 @@
 const CardDetails = ({brand, km, color}) => {
     return (
-        <div className="flex flex-col card__details">
+        <div className="card__details grid grid-cols-4 gap-4 mt-4">
             <h3 className="text-2xl font-semibold mt-2"> Car Details </h3>
             <ul>
                 <li> Brand: {brand} </li>

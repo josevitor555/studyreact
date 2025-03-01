@@ -14,10 +14,25 @@ h1 {
   margin: 20px 10px;
 }
 
-.show-button, .props, .card__details {
+.show-button, .props {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card__details {
+  margin: 0 auto;
+  padding: 10px;
+  width: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__details ul {
+  background: #fafafa;
+  padding: 10px 20px;
+  border-radius: 6px;
 }
 
 .list-names {
@@ -28,23 +43,53 @@ h1 {
   list-style: none;
 }
 
+.state-lift {
+  margin-top: 10px;
+  padding: 10px 0px;
+}
+
+.fragment {
+  background: #fafafa;
+  width: 580px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.children-prop {
+  background: #fafafa;
+  width: 580px;
+  margin: 14px auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.execute__function {
+  background: #fafafa;
+  width: 580px;
+  margin: 14px auto;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
 body {
   height: auto;
   background: #fafafa;
   height: auto;
   background-image: linear-gradient(
-    0deg,
-    hsl(178deg 59% 89%) 0%,
-    hsl(146deg 56% 91%) 2%,
-    hsl(113deg 52% 92%) 4%,
-    hsl(81deg 46% 93%) 8%,
-    hsl(49deg 38% 94%) 12%,
-    hsl(16deg 26% 96%) 19%,
-    hsl(5deg 40% 95%) 32%,
-    hsl(15deg 64% 92%) 59%,
-    hsl(25deg 76% 90%) 77%,
-    hsl(35deg 83% 87%) 88%,
-    hsl(45deg 88% 85%) 95%,
-    hsl(55deg 91% 82%) 100%
+    5deg,
+    hsl(50deg 69% 91%) 0%,
+    hsl(50deg 64% 90%) 2%,
+    hsl(51deg 60% 89%) 4%,
+    hsl(51deg 57% 88%) 8%,
+    hsl(51deg 55% 86%) 13%,
+    hsl(51deg 52% 85%) 22%,
+    hsl(51deg 51% 84%) 47%,
+    hsl(50deg 52% 85%) 76%,
+    hsl(48deg 54% 86%) 86%,
+    hsl(47deg 56% 87%) 92%,
+    hsl(46deg 58% 88%) 96%,
+    hsl(44deg 60% 89%) 98%,
+    hsl(43deg 62% 90%) 100%
   );
 }
