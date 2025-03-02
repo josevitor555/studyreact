@@ -1,0 +1,8 @@
+
+/* React CSS selects all style classes and treats them as properties of an object. */
+
+.component__module {
+    color: #1d1d1d;
+    font-size: 24px;
+    padding: 10px;
+}

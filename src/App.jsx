@@ -12,6 +12,7 @@ import Container from './components/Container'
 import ExecuteFunction from './components/ExecuteFunction'
 import Message from './components/Message'
 import ChangeMessage from './components/ChangeMessage'
+import ComponentModuleCss from './components/ComponentmoduleCss'
 
 import { useState } from 'react'
 
@@ -24,8 +25,7 @@ const cars = [
 
 function App() {
 
-  // Função em Prop
-
+  // Function In Prop
   function showMessage() {
     alert("Event from father component!");
   }
@@ -35,6 +35,12 @@ function App() {
   const handleMessage = (msg) => {
     setMessage(msg);
   }
+
+  // CSS Dynamic Inline Style
+  const x = 15;
+
+  // Dynamic Classes
+  const blackTitle = true;
 
   return (
     <>
@@ -79,6 +85,18 @@ function App() {
       {/* State Lift */}
       <Message msg={message}/>
       <ChangeMessage handleMessage={handleMessage}/>
+
+      {/* Estilos CSS - Inline Style */}
+      <p className='text-center' style={{ color:"black", padding: "12px", fontSize: "24px" }}> Element with Inline Style </p>
+
+      {/* Dynamic Inline Style */}
+      <h2 className='text-center' style={x > 10 ? {color: "black", padding: "12px", fontSize: "24px"} : {color: "magenta", padding: "12px", fontSize: "24px"}}> Dynamic CSS, x is greater than 10 </h2>
+
+      {/* Dynamic Classes */}
+      <h2 className={blackTitle ? 'black-title text-center' : 'title'}> This is a black title with Dynamic Classes </h2>
+
+      {/* Creating style file for a component - CSS Modules */}
+      <ComponentModuleCss/>
      </div>
     </>
   )

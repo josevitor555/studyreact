@@ -72,6 +72,13 @@ h1 {
   border-radius: 8px;
 }
 
+/* Dynamic Classes */
+.black-title {
+  font-size: 24px;
+  color: #00000;
+  padding: 12px;
+}
+
 body {
   height: auto;
   background: #fafafa;
