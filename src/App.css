@@ -79,6 +79,40 @@ h1 {
   padding: 12px;
 }
 
+/* Inline Style */
+.inline__style {
+  background: var(--background-image);
+  width: 580px;
+  margin: 14px auto;
+  border-radius: 8px;
+}
+
+/* Dynamic CSS */
+.dynamic__css {
+  background: var(--background-image);
+  width: 580px;
+  margin: 14px auto;
+  border-radius: 8px;
+}
+
+/* Dynamic Classes */
+.dynamic-classes {
+  background: var(--background-image);
+  width: 580px;
+  margin: 14px auto;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+/* Component CSS Module */
+.component__cssmodule {
+  background: var(--background-image);
+  width: 580px;
+  margin: 14px auto;
+  border-radius: 8px;
+  padding: 24px;
+}
+
 body {
   height: auto;
   background: #fafafa;

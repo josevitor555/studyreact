@@ -87,13 +87,13 @@ function App() {
       <ChangeMessage handleMessage={handleMessage}/>
 
       {/* Estilos CSS - Inline Style */}
-      <p className='text-center' style={{ color:"black", padding: "12px", fontSize: "24px" }}> Element with Inline Style </p>
+      <p className='inline__style text-center text-2xl font-light' style={{ color:"black", padding: "24px" }}> Element with Inline Style </p>
 
       {/* Dynamic Inline Style */}
-      <h2 className='text-center' style={x > 10 ? {color: "black", padding: "12px", fontSize: "24px"} : {color: "magenta", padding: "12px", fontSize: "24px"}}> Dynamic CSS, x is greater than 10 </h2>
+      <h2 className='dynamic__css text-center text-2xl font-light' style={x > 10 ? {color: "black", padding: "24px"} : {color: "magenta", padding: "24px"}}> Dynamic CSS, x is greater than 10 </h2>
 
       {/* Dynamic Classes */}
-      <h2 className={blackTitle ? 'black-title text-center' : 'title'}> This is a black title with Dynamic Classes </h2>
+      <h2 className={blackTitle ? 'black-title text-center dynamic-classes text-2xl font-light' : 'title'}> This is a black title with Dynamic Classes </h2>
 
       {/* Creating style file for a component - CSS Modules */}
       <ComponentModuleCss/>
