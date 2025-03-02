@@ -12,12 +12,12 @@ import Container from './components/Container'
 import ExecuteFunction from './components/ExecuteFunction'
 import Message from './components/Message'
 import ChangeMessage from './components/ChangeMessage'
-import ComponentModuleCss from './components/ComponentmoduleCss'
+import ComponentModuleCss from './components/ComponentModuleCss';
 
 import { useState } from 'react'
 
 {/* Renderização de lista com componente */}
-const cars = [
+const cars: { id: number; barnd: string; color: string; km: number }[] = [
   {id: 1, barnd: "Ferrari", color: "Red", km: 20000},
   {id: 2, barnd: "KIA", color: "White", km: 30000},
   {id: 3, barnd: "Renault", color: "Blue", km: 10000},
@@ -26,21 +26,21 @@ const cars = [
 function App() {
 
   // Function In Prop
-  function showMessage() {
+  function showMessage(): void {
     alert("Event from father component!");
   }
 
   // State Lift
-  const [message, setMessage] = useState("")
-  const handleMessage = (msg) => {
+  const [message, setMessage] = useState<string>("")
+  const handleMessage = (msg: string): void => {
     setMessage(msg);
   }
 
   // CSS Dynamic Inline Style
-  const x = 15;
+  const x: number = 15;
 
   // Dynamic Classes
-  const blackTitle = true;
+  const blackTitle: boolean = true;
 
   return (
     <>

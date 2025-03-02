@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Projects */
+    "target": "es2016",                                  
+    "jsx": "react-jsx",                                 
+    "module": "commonjs",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "skipLibCheck": true                                 
+  }
+}
